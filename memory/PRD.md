@@ -51,7 +51,14 @@ Sleek, modern, futuristic, professional landing page for GUniverse — a pre-see
   - About: non-pharmacological mission, Nirmaan cohort, research backing (Harvard brain wiring, Hanyang ACT, J. Orthopaedic Surgery 2025)
   - Pitch modal: 8 chapters mirroring the real deck incl. $299/seat/mo SaaS + B2B2C + hardware bundles
 
+## Implemented (2026-09-27, iteration 5)
+- User's headset animation (1758036972720.mp4, "G"-branded VR headset cinematic) integrated site-wide:
+  - Converted to a seamless boomerang loop (forward+reverse, ~1.1MB) at frontend/public/guniverse-headset.mp4
+  - Hero: floating glass video frame with glow, "Realtime Render" + "GUniverse Engine · Meta Quest 3S" chips, idle float + scroll parallax, alongside the existing three.js particle globe
+  - New full-bleed "The Experience" cinematic band after the marquee: dark-graded video background with scroll parallax/zoom and "Step inside the future of care." headline
+- Removals per user: HIPAA cloud backend card + all HIPAA mentions, $299/seat ARR line, Nirmaan cohort badge/mentions, Dr. Sweta (Limitless Brain Labs) name, execution roadmap strip
+
 ## Backlog
 - P0: None
-- P1: Real social links (LinkedIn URL)
-- P2: Downloadable pitch deck PDF (use uploaded PDFs), lead CSV export, reply-to-lead from dashboard, favicon from logo
+- P1: Real social links (LinkedIn URL); pitch modal still mentions roadmap/ARR + $299 — user may want synced
+- P2: Deck PDF downloads, lead CSV export, reply-to-lead, favicon from logo, scenario showcase gallery
