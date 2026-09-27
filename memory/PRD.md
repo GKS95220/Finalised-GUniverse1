@@ -37,7 +37,7 @@ Sleek, modern, futuristic, professional landing page for GUniverse — a pre-see
 - Test playbook saved to /app/auth_testing.md; credentials in /app/memory/test_credentials.md.
 
 ## Implemented (2026-09-19, iteration 3)
-- Real notification inbox connected: lead alerts now send to G.k.sharma95220@gmail.com (verified 202 Accepted via managed Resend proxy)
+- Real notification inbox connected: lead alerts now send to gopal@guniversehealthcare.com (updated from Gmail per user request)
 - User's real logo integrated: cropped orbital mark saved to frontend/public/guniverse-logo.png, used in nav, footer, and admin login via the shared Logo component
 
 ## Implemented (2026-09-23, iteration 4)
