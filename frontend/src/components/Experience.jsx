@@ -64,6 +64,16 @@ export default function Experience() {
         <div className="pointer-events-none absolute inset-0 bg-[#050714]/45" />
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-[#050714] via-transparent to-[#050714]" />
 
+        <div
+          data-testid="experience-scroll-progress"
+          className="absolute inset-x-0 bottom-0 h-[3px] bg-slate-800/60"
+        >
+          <motion.div
+            style={{ scaleX: scrollYProgress }}
+            className="h-full w-full origin-left bg-gradient-to-r from-cyan-400 via-sky-400 to-violet-500 shadow-[0_0_14px_rgba(0,242,254,0.7)]"
+          />
+        </div>
+
         <Beat
           progress={scrollYProgress}
           range={[0, 0.12, 0.3]}
