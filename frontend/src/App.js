@@ -6,7 +6,6 @@ import { Toaster } from "@/components/ui/sonner";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Marquee from "@/components/Marquee";
-import Experience from "@/components/Experience";
 import Manifesto from "@/components/Manifesto";
 import Features from "@/components/Features";
 import Ecosystem from "@/components/Ecosystem";
@@ -51,7 +50,6 @@ function Landing() {
       <main>
         <Hero />
         <Marquee />
-        <Experience />
         <Manifesto />
         <Features />
         <Ecosystem />
